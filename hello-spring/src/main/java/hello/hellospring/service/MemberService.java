@@ -7,6 +7,8 @@ import org.springframework.beans.factory.annotation.Autowired;
 
 import java.util.List;
 import java.util.Optional;
+import org.springframework.transaction.annotation.Transactional
+@Transactional
 public class MemberService {
     private final MemberRepository memberRepository;
     @Autowired
